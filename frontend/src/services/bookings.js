@@ -1,0 +1,1 @@
+import {api} from './api'; export const getBookings=()=>api.get('/bookings'); export const bookSlot=id=>api.post(`/slots/${id}/book`); export const cancelBooking=id=>api.post(`/bookings/${id}/cancel`)

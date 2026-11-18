@@ -1,0 +1,48 @@
+.env
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+node_modules/
+dist/
+backend/instance/*.sqlite3
+backend/instance/exports/
+*.log
+.DS_Store
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Frontend
+node_modules/
+dist/
+
+# Databases
+*.sqlite
+*.sqlite3
+*.db
+
+# Exports and logs
+backend/instance/exports/
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Celery runtime files
+celerybeat-schedule*
+**/celerybeat-schedule*
+
+# Generated student exports
+**/instance/exports/
